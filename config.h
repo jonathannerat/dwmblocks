@@ -21,10 +21,6 @@ static const Block blocks[] = {
 		.command = "df /home -h | tail -n+2 | awk '{print $4}'",
 		.interval = 10 MIN
 	}, {
-		.icon = " %",
-		.command = "cat /sys/class/power_supply/BAT0/capacity",
-		.interval = 15
-	}, {
 		.icon = " ",
 		.command = "date +'%F %H:%M'",
 		.interval = 15
